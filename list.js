@@ -1,4 +1,4 @@
-console.log(location)
+console.log(location.hostname)
 if (typeof AUTO_TITLE != 'undefined' && AUTO_TITLE == true) {
   document.title = location.hostname;
 }
